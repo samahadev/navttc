@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+             --box-margin: 18px;
+            --card-num: 3;
+
+            display: flex;
+            flex-wrap: wrap;
+            width: 800px;
+
+            border: 5px solid green;
+
+        }
+
+        div {
+           
+
+            --total-margin-of-one-box: calc(var(--box-margin) * 2);
+
+            --total-margin-of-all-boxes: calc(var(--total-margin-of-one-box) * var(--card-num));
+
+            border: 2px solid red;
+            width:
+                calc((100% - var(--total-margin-of-all-boxes)) / var(--card-num));
+            height: 100px;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+            margin: var(--box-margin);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        box
+    </div>
+
+    <div>
+        box
+    </div>
+
+    <div>
+        box
+    </div>
+
+    <div>
+        box
+    </div>
+    <div>
+        box
+    </div>
+    <div>
+        box
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+h3 {
+  background-color: #7469b6;
+}
+body {
+  background-color: #e6b6b6;
+  line-height: 40px;
+}
+ul {
+  color: #22091a;
+}
+P {
+  color: #3a162e;
+}
+th {
+  background-color: #938ab8;
+}
+h3 {
+  text-decoration: underline;
+}
+UL {
+  font-size: larger;
+}
+h3 {
+  font-weight: 1200;
+  font-size: x-large;
+}
+p {
+  font-style: oblique;
+  font-size: larger;
+  font-weight: 900;
+}
+table {
+  border-collapse: collapse;
+}
+
