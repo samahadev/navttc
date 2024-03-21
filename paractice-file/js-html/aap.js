@@ -32,3 +32,28 @@
 //  let age10=prompt("enter the age of ten student");
 //  let average=(parseInt(age1)+parseInt(age2)+parseInt(age3)+parseInt(age4)+parseInt(age5)+parseInt(age6)+parseInt(age7)+parseInt(age8)+parseInt(age9)+parseInt(age10))/10;
 //  alert(parseInt(average));
+// const name = "ayesha";
+// const age = 20;
+
+// concatenation
+// console.log("my name is " + name + " and i am " + age);
+// template string
+// console.log();
+// let radius = prompt("enter the radius");
+// let diameter = radius * 2;
+// // c=2*pi*r
+// let circumfrance = 2 * Math.PI * radius;
+// // a=PI*r**2
+// let area =  Math.PI * radius ** 2;
+// console.log(radius);
+// console.log(diameter);
+// console.log(circumfrance);
+// console.log(area);
+
+// quatations
+let word ("My self samaha ayesa");
+console.log(word);
+
+
+
+
