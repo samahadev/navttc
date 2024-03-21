@@ -51,8 +51,8 @@
 // console.log(area);
 
 // quatations
-let word ("My self samaha ayesa");
-console.log(word);
+// let word ("My self samaha ayesa");
+// console.log(word);
 
 
 
