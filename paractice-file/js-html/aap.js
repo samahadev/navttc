@@ -51,9 +51,16 @@
 // console.log(area);
 
 // quatations
-let word ("My self samaha ayesa");
-console.log(word);
-
-
-
+// let word=("My self samaha ayesha   ");
+// console.log(word.length);
+// console.log(word.toUpperCase());
+// console.log(word.toLowerCase());
+// console.log(word.trim());
+// console.log(word.indexOf("a"));
+// console.log(word.slice(7,15));
+// console.log(word.replace("My","hy"));
+const name="ayesha";
+const age=20;
+console.log("my name"+name+age);
+console.log("he said i am not going")
 
