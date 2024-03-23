@@ -21,3 +21,11 @@
 // let itemquantity=prompt("please enter the quantity of te item");
 // let subtotal=itemquantity*itemprice;
 // console.log(subtotal);
+
+// let number=prompt("enter the number")
+// if(number%2==0){
+//     console.log("the number is even")
+// }
+// else{
+//     console.log("the number is odd")
+// }

@@ -59,8 +59,8 @@
 // console.log(word.indexOf("a"));
 // console.log(word.slice(7,15));
 // console.log(word.replace("My","hy"));
-const name="ayesha";
-const age=20;
-console.log("my name"+name+age);
-console.log("he said i am not going")
+// const name="ayesha";
+// const age=20;
+// console.log("my name"+name+age);
+// console.log("he said i am not going")
 
