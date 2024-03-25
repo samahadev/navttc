@@ -1,31 +1,31 @@
 let monthnumber = prompt("please enter the number of a month");
 
 if (monthnumber == 1) {
-  console.log("january have 31 days");
+  console.log("january has 31 days");
 } else if (monthnumber == 2) {
-  console.log("february have 28 days");
+  console.log("february has 28 days");
 } else if (monthnumber == 3) {
-  console.log("march have 30 days");
+  console.log("march has 31 days");
 } else if (monthnumber == 4) {
-  console.log("april have 31 days");
+  console.log("april has 30 days");
 } else if (monthnumber == 5) {
-  console.log("may have 30 days");
+  console.log("may has 31 days");
 } else if (monthnumber == 6) {
-  console.log("june ave 31 days");
+  console.log("june has 30 days");
 } else if (monthnumber == 7) {
-  console.log("july have 31 days");
+  console.log("july has 31 days");
 } else if (monthnumber == 8) {
-  console.log("august have 30 days");
+  console.log("august has 31 days");
 } else if (monthnumber == 9) {
-  console.log("september have 31 days");
+  console.log("september has 30 days");
 } else if (monthnumber == 10) {
-  console.log("october have 31 days");
+  console.log("october has 31 days");
 } else if (monthnumber == 11) {
-  console.log("november have 31 days");
+  console.log("november has 30 days");
 } else if (monthnumber == 12) {
-  console.log("december have 31 days");
+  console.log("december has 31 days");
 } else {
-  console.log("you enter wrong number please enter  number between 1 to 12");
+  console.log("A year consists of 12 month please enter number between 1 to 12");
 }
 // else{
 //   document.body.innerHTML =
