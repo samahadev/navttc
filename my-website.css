@@ -1,0 +1,25 @@
+svg {
+  display: none;
+}
+.one{
+    length: 300px;
+    width: 400px;
+}
+.two{
+    length:300px;
+    width:400px
+}
+.three{
+    lengt: 300px;
+    width: 400px;
+}
+header{
+    color:#401F71;
+}
+section{
+       color:#390b7e;
+
+}
+*{
+background-color: #dbc4eb;
+} 
