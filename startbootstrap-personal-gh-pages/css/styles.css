@@ -11732,3 +11732,7 @@ html {
     left: -2vw;
   }
 }
+.profile-img{
+  length=100px
+  width: 100px;
+}
