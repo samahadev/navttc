@@ -5,6 +5,8 @@
 //     ? `Your ${tweetLength} char tweet will work!`
 //     : `Your ${tweetLength} char tweet is ${tweetLength - 140} chars too long`;
 // console.log(result);
+//   let t=prompt("please write your tweet");   
+//   alert(tt.slice(0,10));                                          
 // let age=prompt("please enter your age")
 // if(age<18){
 //   console.log("sorry,you are too young to drive this car.powering off")
