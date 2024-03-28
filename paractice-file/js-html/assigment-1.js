@@ -32,10 +32,17 @@
 //     console.log("the number is odd")
 // }
 
-// function
-function first(name) {
-    console.log("thank you");
+// // function
+// function first(name) {
+//     console.log("thank you");
+//     ("thank you");
+//     ("thank you");
+//     ("thank you");
+//     ("thank you");
     
+// }
+function number (name){
+    console.log(`welcome to class!${name}`);
 }
 
 
