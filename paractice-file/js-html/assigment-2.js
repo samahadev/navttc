@@ -158,14 +158,19 @@
 // }
 // console.log(data);
 
-let number=parseInt(prompt("please four digit number"));
-let first = number%10;
-let firstd=parseInt(number/10);
-let second =firstd %10;
-let secondd =parseInt(firstd/10);
-let third =secondd%10;
-let thirdd =parseInt(secondd/10);
-console.log(`${first},${second},${third},${thirdd}`);
+// let number=parseInt(prompt("please four digit number"));
+// let first = number%10;
+// let firstd=parseInt(number/10);
+// let second =firstd %10;
+// let secondd =parseInt(firstd/10);
+// let third =secondd%10;
+// let thirdd =parseInt(secondd/10);
+// console.log(`${first},${second},${third},${thirdd}`);
+
+
+
+
+
 
 
 

@@ -31,3 +31,37 @@
 // else{
 //     console.log("the number is odd")
 // }
+
+// function
+function first(name) {
+    console.log("thank you");
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
