@@ -41,11 +41,17 @@
 //     ("thank you");
     
 // }
-function number (name){
-    console.log(`welcome to class!${name}`);
-}
+// function number (ayesa){
+//     console.log(`welcome to class!${name}`);
+// }
 
-
+// function greating(name){
+//     console.log("welcome to coding world! $ {name}");
+// }
+// function area (radius){
+//     let area=PI*radius*radius;
+//     alert(area);
+// }
 
 
 
