@@ -72,5 +72,143 @@
 
 
 
+// // assigment
+// function lifePhase(age) {
+// if (age>0 && age<= 3) {
+//     return "baby";
+//   }
+// else if(age>=4 && age<=12) {
+//     return "child";
+//   }
+//  else if(age>=13 && age<=19) {
+//     return "teen";
+//   }
+//  else if(age>=20 && age<=64) {
+//     return "adult";
+//   }
+//  else if(age>=65 && age<=140) {
+//     return "senior citizen";
+//   }
+//   else{
+// return "this is not a valid age"  }
+// }
+
+// // assigment 2
+// function finalgrade(a, b, c ){
+//   grade =( a + b + c )/ 3;
+// if ((grade >= 90) & (grade <= 100)) {
+//     return "your grade is A";
+//   }
+//  else if ((grade >= 80) & (grade <= 89)) {
+//     return "your grade is B";
+//   }
+//   else if ((grade >= 70) & (grade <= 79)) {
+//     return "your grade is C";
+//   }
+// else if ((grade >= 60) & (grade <= 69)) {
+//     return "your grade is D";
+//   }
+//   else if ((grade >=0)&(grade<=59)){
+//     return "your grade is F";
+//   }
+//   else {
+//     "you ave entered an invalid grade"
+//   }
+// }
+
+// // assigment 3
+// function colorMessage(favoritecolor,shirtcolor){
+//     if (favoritecolor==shirtcolor){
+//       return  "the shirt is your favorite color"
+//     }
+//     else
+//        { return "this is a nice color"}
+    
+// }
+
+// // assigment 4
+// function isEven(number){
+//     if (number%2==0){
+//         return "true"
+//     }
+//     else{
+//         return "false"
+//     }
+// }
+// assigment 5
+// var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+// // 1. Remove the Banana from the array.
+// array.shift();
+
+// // 2. Sort the array in order.
+// array.sort();
+
+// // 3. Put "Kiwi" at the end of the array.
+// array.push("Kiwi");
+
+// // 4. Remove "Apples" from the array.
+// array.splice(array.indexOf("Apples"), 1);
+
+// // 5. Sort the array in reverse order.
+// array.reverse();
+
+// console.log(array); // Output: ["Kiwi", "Oranges", "Blueberries"]
+
+// var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+// var oranges = array2[1][1][0];
+// console.log(oranges); // Output: "Oranges"
+
+// // assigment 6
+// function multiply(first,second){
+//     return first*second
+// } 
+// // assigment 7
+// function returnDay(number){
+//     if(number==1){
+//     return "Monday"}
+    
+// else if(number==2){
+// return "Tuesday"
+//     }
+// else if(number==3){
+//     return "wednesday"
+// }
+// else if(number==4){
+//     return "Thursday"
+// }
+// else if(number==5){
+//     return "friday"
+// }
+// else if(number==6){
+//     return "saturday"
+// }
+// else if(number==7){
+//     return "sunday"
+// }
+
+// }
+
+// assigment 8 
+function capitilize(name){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
