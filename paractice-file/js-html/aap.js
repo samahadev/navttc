@@ -190,8 +190,11 @@
 // }
 
 // assigment 8 
-function capitilize(name){
-
+function capitilize (str){
+    if (str.length >0){
+        return str.charAt(0).toUpperCase ()+ str
+    }
+    else{return str}
 }
 
 
