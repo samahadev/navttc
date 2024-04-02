@@ -189,14 +189,12 @@
 
 // }
 
-// assigment 8 
-function capitilize (str){
-    if (str.length >0){
-        return str.charAt(0).toUpperCase ()+ str
-    }
-    else{return str}
-}
-
+// // assigment 8 
+// function capitalize (string){
+//     let capitalize=(string.slice(0,1).toUpperCase())
+//     let remaining=(string.slice(1))
+//     console.log(`${capital}${remaining}`)
+// }
 
 
 
