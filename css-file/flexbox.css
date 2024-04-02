@@ -1,0 +1,74 @@
+div {
+  height: 60px;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  border: 3px solid black;
+  height: 200px;
+  width: 100px;
+  align-content: space-evenly;
+}
+img {
+  height: 400px;
+  width: 400px;
+}
+
+.first {
+  background-color: blue;
+}
+.second {
+  background-color: purple;
+}
+.third {
+  background-color: chartreuse;
+}
+.four {
+  background-color: aqua;
+}
+.five {
+  background-color: chocolate;
+}
+.six {
+  background-color: crimson;
+}
+.my {
+    float: right
+}
+.mine {
+    float: 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
