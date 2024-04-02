@@ -194,7 +194,7 @@ function capitilize (str){
     if (str.length >0){
         return str.charAt(0).toUpperCase ()+ str
     }
-    else{return str}
+    else{return str}rgjkl;';lk'
 }
 
 
