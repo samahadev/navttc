@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  background-color: purple;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0px 20px;
+}
+h1 {
+  font-weight: 900;
+  font-size: xx-large;
+  color: white;
+}
+
+nav {
+  background-color: ligt plum;
+  display: grid;
+  place-items: center;
+}
+nav ul {
+  list-style-type: none;
+  overflow: auto ;
+}
+nav li {
+  float: left;
+  list-style: none;
+}
+nav ul a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in;
+  font-size: 18px;
+}
+nav ul a:hover {
+  background-color: purple;
+  color: rgb(53, 2, 53);
+}
+.item-container {
+  display: flex;
+  padding: 30px 20px;
+  max-width: 1250px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+section {
+  width:400px;
+}
+.item > div {
+  border: 1px solid #cfbbbb;
+  background: #f5f5f5;
+
+  margin: 10px;
+  border-radius: 5px;
+}
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  padding: 8px;
+  text-transform: capitalize;
+}
+.price {
+  color: purple;
+}
+.img-container {
+  overflow: hidden;
+}
+.item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.item:hover img {
+  transform: scale(1.1);
+}
+.item h4 {
+  padding: 5px;
+  text-align: center;
+}
+.button-container {
+  text-align: right;
+}
+.item button {
+  padding: 5px 18px;
+  border: none;
+  outline: none;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 4px;
+
+  transition: 0.2s all;
+}
+.item button:hover {
+  transform: scale(1.08);
+}
+.item {
+  grid-template-columns: repeat(2, 1fr);
+}

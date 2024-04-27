@@ -1,0 +1,26 @@
+nav {
+  background-color: rgb(5, 5, 85);
+  display: grid;
+  place-items: center;
+  color: white;
+}
+nav ul {list-style-type: none;
+}
+nav ul a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in;
+  font-size: 18px;
+}
+nav ul a:hover {
+  background-color:rgb(81, 81, 226)
+}
+nav h1{
+    font-weight: 900;
+    font-size: xx-large;
+}
+body{
+    background-image: url(https://plus.unsplash.com/premium_photo-1679917447807-d485719d7c1f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
