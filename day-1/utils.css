@@ -1,0 +1,22 @@
+#cursor {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 80px;
+  height: 80px;
+  border: solid 2px #30042d;
+  border-radius: 50%;
+  z-index: 10;
+
+  transform: translate(-50%, -50%);
+
+  transition: all 0ms linear;
+
+  pointer-events: none;
+  background-color: rgba(0, 255, 238, .3);
+  background-color: #7a598396;
+}
+* {
+  /* cursor: none; */
+/* } */
