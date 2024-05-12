@@ -5,7 +5,7 @@
 
   width: 80px;
   height: 80px;
-  border: solid 2px #30042d;
+  border: solid 2px white;
   border-radius: 50%;
   z-index: 10;
 
@@ -14,9 +14,9 @@
   transition: all 0ms linear;
 
   pointer-events: none;
-  background-color: rgba(0, 255, 238, .3);
-  background-color: #7a598396;
+  background-color:  #8232df59;
+  background-color: #ab77e721;
 }
-* {
+/* * { */
   /* cursor: none; */
 /* } */
