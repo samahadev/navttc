@@ -1,0 +1,151 @@
+li {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(87, 11, 87);
+  color: white;
+  height: 65px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+}
+body.computer {
+  background-color: rgba(136, 96, 136, 0.836);
+  user-select: none;
+  pointer-events: none;
+}
+.gamecontainer {
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container {
+  /* grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw); */
+  font-size: "Roboto", sans-serif;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  border: 2px solid black;
+  font-size: 8vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+}
+
+.box * {
+  display: none;
+  font-size: 50px;
+}
+
+.box.true,
+.box.false {
+  pointer-events: none;
+}
+
+.box.true .tik {
+  display: block;
+}
+.box.false .cros {
+  display: block;
+}
+
+.box:hover {
+  background-color: rgb(192, 134, 247);
+}
+.info {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.gameinfo {
+  padding: 0 34px;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+.gameinfo h1 {
+  font-size: 2.5rem;
+}
+.imgbox img {
+  width: 0;
+  transition: width 1s ease-in-out;
+}
+.br-0 {
+  border-right: 0;
+}
+.bl-0 {
+  border-left: 0;
+}
+.bt-0 {
+  border-top: 0;
+}
+.bb-0 {
+  border-bottom: 0;
+}
+#reset {
+  margin: 0 23px;
+  padding: 1px 18px;
+  background: rgb(232, 220, 243);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Baloo Bhaina 2";
+  font-size: 15px;
+  font-weight: bolder;
+}
+.line {
+  background-color: black;
+  height: 3px;
+  width: 0;
+  position: absolute;
+  background-color: rgb(151, 23, 151);
+  transition: width 1s ease-in-out;
+}
+
+@media screen and (max-width: 950px) {
+  .gamecontainer {
+    flex-wrap: wrap;
+  }
+  .gameinfo {
+    margin-top: 35px;
+  }
+  .gameinfo h1 {
+    font-size: 1.5rem;
+  }
+}
+
+p.user,
+p.computer {
+  display: none;
+  font-weight: 900;
+  font-size: xx-large;
+  font-style: oblique;
+}
+
+body.win-user p.user {
+  display: block;
+}
+
+body.win-computer p.computer {
+  display: block;
+}
